@@ -35,6 +35,7 @@ public class MyPets extends javax.swing.JFrame {
         btnSeguirJugando = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("My Pets - Tú Mascota Virtual.");
 
         jLabel1.setText("Selecciona el tipo de mascota:");
 

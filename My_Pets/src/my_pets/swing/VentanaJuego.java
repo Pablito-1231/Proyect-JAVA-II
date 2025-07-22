@@ -14,7 +14,7 @@ public class VentanaJuego extends javax.swing.JFrame {
 
         initComponents();
         
-        // Validar y crear archivo de estado de la mascota
+        // Valida y crea archivo de estado de la mascota.
         File FileMascota = new File("mascota.txt");
 
         if (!FileMascota.exists()) {
@@ -29,9 +29,8 @@ public class VentanaJuego extends javax.swing.JFrame {
         } else {
             
             String[] datos = GestorArchivos.leerEstadoMascota("mascota.txt");
-
             
-            String tipo = datos[0]; // datos[0] es el tipo ("Perro" o "Gato")
+            String tipo = datos[0];
             String nombre = datos[1];
 
             if (tipo.equals("Perro")) {

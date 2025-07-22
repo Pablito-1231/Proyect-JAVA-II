@@ -1,5 +1,5 @@
-Gato
-mishu
-322
-38
-100
+Perro
+Doki
+65
+20
+50

@@ -18,6 +18,10 @@ public class Gato extends Mascota implements Domesticable {
         if (hambre < 0)
             
             hambre = 0;
+        
+        if (felicidad  > 100)
+            
+            felicidad = 100;
     }
 
     @Override
@@ -31,6 +35,10 @@ public class Gato extends Mascota implements Domesticable {
         if (energia < 0)
             
             energia = 0;
+        
+        if (felicidad  > 100)
+            
+            felicidad = 100;
     }
 
 
@@ -44,6 +52,10 @@ public class Gato extends Mascota implements Domesticable {
         if (energia < 0)
             
             energia = 0;
+        
+        if (felicidad  > 100)
+            
+            felicidad = 100;
     }
 
     @Override
@@ -57,6 +69,10 @@ public class Gato extends Mascota implements Domesticable {
         if (energia > 100)
             
             energia = 100;
+        
+        if (hambre  > 100)
+            
+            hambre = 100;
     }
 
     @Override
